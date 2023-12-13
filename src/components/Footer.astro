@@ -1,0 +1,16 @@
+---
+    import { SITE } from '$/config'
+    import ModeLabel from './ModeLabel.svelte'
+    import NetlifyIdentity from './NetlifyIdentity.svelte'
+---
+<footer class="footer">
+    <nav class="nav">
+        <div>{ `${new Date().getFullYear()}` }  &copy; Copyright</div>
+        <NetlifyIdentity client:load/>
+    </nav>
+</footer>
+<style>
+    .footer {
+        @apply py-6 border-t text-center
+    }
+</style>
