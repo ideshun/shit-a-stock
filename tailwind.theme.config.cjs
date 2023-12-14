@@ -1,164 +1,53 @@
-const colors = require('tailwindcss/colors')
+/*
+ * @Author: Deshun
+ * @Date: 2023-12-14 10:36:10
+ * @Description: tailwindCSS 主题色
+ * @FilePath: /AStock.956.icu/tailwind.theme.config.cjs
+ * Copyright (c) 2023 by liudeshun@pansoft.com, All Rights Reserved.
+ */
+const colors = require("tailwindcss/colors");
 
 module.exports = {
-    /**
-     * Color Palette - orange Heart
-     */
-     orangeheart: {
-        colors: {
-            primary: colors.orange[700],
-            secondary: colors.orange[800],
-            dark: {
-                primary: colors.orange[300],
-                secondary: colors.orange[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
+  /**
+   * Color Palette - Default/Duplicate of orange Heart (Never remove this)
+   */
+  default: {
+    colors: {
+      green: {
+        100: colors.green[100],
+        200: colors.green[200],
+        300: colors.green[300],
+        400: colors.green[400],
+        500: colors.green[500],
+        600: colors.green[600],
+        700: colors.green[700],
+        800: colors.green[800],
+        900: colors.green[900],
+      },
+      red: {
+        100: colors.red[100],
+        200: colors.red[200],
+        300: colors.red[300],
+        400: colors.red[400],
+        500: colors.red[500],
+        600: colors.red[600],
+        700: colors.red[700],
+        800: colors.red[800],
+        900: colors.red[900],
+      },
+      primary: colors.orange[700],
+      secondary: colors.orange[800],
+      dark: {
+        primary: colors.orange[300],
+        secondary: colors.orange[500],
+      },
+      accent: {
+        gray: {
+          light: colors.gray[300],
+          dark: colors.gray[500],
+        },
+        default: colors.blue[700],
+      },
     },
-    /**
-     * Color Palette - Pink Town
-     */
-    pinktown: {
-        colors: {
-            primary: colors.pink[700],
-            secondary: colors.pink[800],
-            dark: {
-                primary: colors.pink[300],
-                secondary: colors.pink[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Orange City
-     */
-    orangecity: {
-        colors: {
-            primary: colors.orange[700],
-            secondary: colors.orange[800],
-            dark: {
-                primary: colors.orange[300],
-                secondary: colors.orange[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Amber Sky
-     */
-    ambersky: {
-        colors: {
-            primary: colors.amber[700],
-            secondary: colors.amber[800],
-            dark: {
-                primary: colors.amber[300],
-                secondary: colors.amber[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Lime Route
-     */
-    limeroute: {
-        colors: {
-            primary: colors.lime[700],
-            secondary: colors.lime[800],
-            dark: {
-                primary: colors.lime[300],
-                secondary: colors.lime[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Indigone
-     */
-    indigone: {
-        colors: {
-            primary: colors.indigo[700],
-            secondary: colors.indigo[800],
-            dark: {
-                primary: colors.indigo[300],
-                secondary: colors.indigo[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Rose Garden
-     */
-    rosegarden: {
-        colors: {
-            primary: colors.rose[700],
-            secondary: colors.rose[800],
-            dark: {
-                primary: colors.rose[300],
-                secondary: colors.rose[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    },
-    /**
-     * Color Palette - Default/Duplicate of orange Heart (Never remove this)
-     */
-    default: {
-        colors: {
-            primary: colors.orange[700],
-            secondary: colors.orange[800],
-            dark: {
-                primary: colors.orange[300],
-                secondary: colors.orange[500]
-            },
-            accent: {
-                gray: {
-                    light: colors.gray[300],
-                    dark: colors.gray[500]
-                },
-                default: colors.blue[700]
-            }
-        }
-    }
-}
+  },
+};
