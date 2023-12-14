@@ -117,6 +117,33 @@ module.exports = {
             ".text-r-9": {
               color: colors.red['900'],
             },
+            ".text-gray-1": {
+              color: colors.gray['100'],
+            },
+            ".text-gray-2": {
+              color: colors.gray['200'],
+            },
+            ".text-gray-3": {
+              color: colors.gray['300'],
+            },
+            ".text-gray-4": {
+              color: colors.gray['400'],
+            },
+            ".text-gray-5": {
+              color: colors.gray['500'],
+            },
+            ".text-gray-6": {
+              color: colors.gray['600'],
+            },
+            ".text-gray-7": {
+              color: colors.gray['700'],
+            },
+            ".text-gray-8": {
+              color: colors.gray['800'],
+            },
+            ".text-gray-9": {
+              color: colors.gray['900'],
+            },
           },
         },
       }),
