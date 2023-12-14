@@ -72,9 +72,8 @@ const AUTHOR_AVATAR = content.authorImage ? content.authorImage : SITE?.authorIm
         <Prose>
             <slot />
         </Prose>
-        <div class="post__footer">
+        <div class="post__footer mt-8">
             { USE_AUTHOR_CARD &&
-                <br/>
                 <div class="author-card">
                     { AUTHOR_AVATAR ? <img class="author-card__img avatar avatar--lg" src={AUTHOR_AVATAR} alt={`${ AUTHOR_NAME }'s avatar`} /> : ''}
                     <div class="author-card__meta"><span class="author-card__author">{ AUTHOR_NAME }</span>
@@ -97,7 +96,6 @@ const AUTHOR_AVATAR = content.authorImage ? content.authorImage : SITE?.authorIm
                         }*/}
                     </div>
                 </div>
-                <br/>
             }
         </div>
     </MainLayout>
