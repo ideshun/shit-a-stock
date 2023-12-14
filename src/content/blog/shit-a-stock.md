@@ -2,8 +2,8 @@
 title: A股真的太好啦，遍地是黄金！
 description: 🖕
 tags:
-  - A Stock
-  - A Share
+  - a stock
+  - a share
 author: AAA
 authorTwitter: ''
 date: "2023-12-13T10:23:31.210Z"
