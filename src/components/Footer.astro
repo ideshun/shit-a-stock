@@ -1,16 +1,36 @@
 ---
-    import { SITE } from '$/config'
-    import ModeLabel from './ModeLabel.svelte'
-    import NetlifyIdentity from './NetlifyIdentity.svelte'
+import { SITE } from "$/config";
+import ModeLabel from "./ModeLabel.svelte";
+import NetlifyIdentity from "./NetlifyIdentity.svelte";
 ---
+
+<!-- Matomo -->
+<script>
+  var _paq = (window._paq = window._paq || []);
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function () {
+    var u = "https://a.w3to.dev/";
+    _paq.push(["setTrackerUrl", u + "matomo.php"]);
+    _paq.push(["setSiteId", "4"]);
+    var d = document,
+      g = d.createElement("script"),
+      s = d.getElementsByTagName("script")[0];
+    g.async = true;
+    g.src = u + "matomo.js";
+    s.parentNode.insertBefore(g, s);
+  })();
+</script>
+<!-- End Matomo Code -->
 <footer class="footer">
-    <nav class="nav">
-        <div>{ `${new Date().getFullYear()}` }  &copy; Copyright</div>
-        <NetlifyIdentity client:load/>
-    </nav>
+  <nav class="nav">
+    <div>{`${new Date().getFullYear()}`} &copy; Copyright stock.956.icu Powered By <a href="https://blog.956.icu" target="_blank">XS-Blog</a>.</div>
+    <NetlifyIdentity client:load />
+  </nav>
 </footer>
 <style>
-    .footer {
-        @apply py-6 border-t text-center
-    }
+  .footer {
+    @apply py-6 border-t text-center;
+  }
 </style>
