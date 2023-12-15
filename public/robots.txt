@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /
+
+Sitemap: https://stock.956.icu/sitemap-index.xml
